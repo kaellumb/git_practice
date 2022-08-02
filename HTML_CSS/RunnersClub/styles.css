@@ -1,0 +1,202 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: #ea3a3a;
+    color: white;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+
+header .logo {
+    margin-left: 2%;
+}
+
+.motto-mobile {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 5%;
+    align-items: center;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    padding-left: none;
+}
+
+nav li a{
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    font-weight: bold;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    max-width: 100%;
+    height: 30rem;
+    background-image: url("./images/track.jpg");
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid white;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.about-us h1 {
+    font-size: 5rem;
+    margin-bottom: 0.125rem;
+    padding: 0;
+}
+
+.about-us h2 {
+    margin-top: 0;
+    padding: 0;
+}
+
+.about-us .motto {
+    padding: 3rem;
+    background-color: #ea3a3a;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials h1 {
+    border-bottom: 1px solid black;
+    margin-bottom: 0.1rem;
+    line-height: 2.5rem;
+}
+
+.testimonialscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimonialsbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    margin: 1rem 3rem;
+    line-height: 1.125rem;
+}
+
+.testimonialsbox h3 {
+    line-height: 0.5rem;
+    margin-bottom: 0.1rem;
+}
+.testimonialsbox img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us h1 {
+    border-bottom: 1px solid black;
+    line-height: 2.5rem;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactbox {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 2rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    background-color: #ea3a3a;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer h5 {
+    padding: 0.5rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    header .logo {
+        display: none;
+    }
+
+    .motto-mobile {
+        display: flex;
+        flex-direction: column;
+        line-height: 4.5rem;
+        background-color: #ea3a3a;
+        padding: 1rem;
+        max-width: 320px;
+    }
+    .motto {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        padding: 0.5rem;
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        font-size: 0.75rem;
+    }
+}

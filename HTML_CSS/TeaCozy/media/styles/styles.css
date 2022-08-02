@@ -1,0 +1,161 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashelll;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    color: seashell;
+}
+
+.header {
+    display: flex;
+    min-height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    margin-top: 0;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.header img {
+    padding: 5px 10px;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu li a{
+    padding-left: 25px;
+    color: seashell;
+}
+
+.image {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.image img {
+    margin-top: 70px;
+}
+
+.imagetext {
+    position: absolute;  
+    left: 50%;                       
+    top: 50%;                        
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+}
+
+.imagetext h2 {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.imagetext h4 {
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.maincontent {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.imagetext h2 {
+    padding-bottom: 15px;
+}
+
+.mainimages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagesquares {
+    padding: 1px 10px;
+}
+.imagesquares h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.maincontent img{
+    width: 300px;
+    height: 200px;
+}
+
+.locations {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    min-height: 500px;
+    max-width: 1200px;
+    background-image: url("../images/img-locations-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.6;
+    flex-shrink: 2;
+}
+
+.container h2 {
+    margin-bottom: 15px;
+}
+
+.locationscontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locationssquare {
+    border: 1px solid seashell;
+    border-radius: 3px;
+    opacity: 1;
+    min-width: 300px;
+    background-color: black;
+    color: seashell;
+    margin: 5px 40px;
+}
+
+.contact {
+    padding-top: 10px;
+    margin-top: 0px;
+    min-height: 200px;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -138px;
+    visibility: hidden;
+}
+
+footer {
+    text-align: left;
+    margin-left: 5px;
+}
